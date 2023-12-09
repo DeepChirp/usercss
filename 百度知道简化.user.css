@@ -1,0 +1,15 @@
+/* ==UserStyle==
+@name           百度知道简化
+@namespace      github.com/openstyles/stylus
+@version        1.0.0
+@description    删除百度知道上无用的元素
+@author         DeepChirp
+==/UserStyle== */
+
+@-moz-document url-prefix("https://zhidao.baidu.com/question/") {
+.cms-slide,
+.task-list-button,
+.jump-top-box {
+    display: none
+}
+}
