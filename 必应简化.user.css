@@ -1,0 +1,14 @@
+/* ==UserStyle==
+@name           必应简化
+@namespace      github.com/openstyles/stylus
+@version        1.0.0
+@description    删除必应上无用的元素
+@author         DeepChirp
+==/UserStyle== */
+
+@-moz-document regexp("https://[a-zA-Z0-9-]*\\.bing\\.com/search\\?.*") {
+#ev_talkbox_wrapper,
+#tob_rail_container {
+    display: none
+}
+}
